@@ -9,6 +9,7 @@ const SubjectContainer = styled.div`
     font-weight: bold;
     text-shadow: -2px 0px #83B4FF, 0px 2px #83B4FF, 2px 0px #83B4FF, 0px -2px #83B4FF;
     color: white;
+    text-decoration: underline dotted 2px;
 `
 
 const Subject = ({text}) => {

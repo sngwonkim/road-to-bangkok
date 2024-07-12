@@ -61,7 +61,7 @@ const Main = () => {
       <PostContainer>
         <Subject text={'Recommend Posts'} />
         {recommendPosts.data && recommendPosts.data.explorePublications.items.map((item, index) => {
-            if(item.__typename == "Post") {
+            if(item.__typename === "Post") {
                 const imgUri = item.metadata.asset?.image?.optimized?.uri;
                 return (
                     <PostBox key={index}>

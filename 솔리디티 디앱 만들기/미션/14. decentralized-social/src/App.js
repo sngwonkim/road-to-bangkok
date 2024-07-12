@@ -1,8 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// import { ApolloProvider } from '@apollo/client'
-// import { client } from './apollo-client'
 import { LensProvider } from '@lens-protocol/react-web';
 
 import Main from './pages/Main'
@@ -11,6 +9,7 @@ import SingleProfile from './pages/SingleProfile';
 import { lensConfig, wagmiConfig } from './config';
 import { WagmiProvider } from 'wagmi';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import MyPage from './pages/MyPage';
 
 const queryClient = new QueryClient();
 
@@ -24,6 +23,7 @@ const App = () => {
               <Route path='/' element={<Main />} />
               <Route path='profile' element={<Profile />} />
               <Route path='/profile/:id' element={<SingleProfile />} />
+              <Route path='/mypage' element={<MyPage />} />
             </Routes>
           </Router>
         </LensProvider>
