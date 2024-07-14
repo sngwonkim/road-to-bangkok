@@ -161,7 +161,7 @@ Search "Rollup Chain" for details in this [link ](https://docs.arbitrum.io/how-a
 그 원리를 쉽게 이해할 수 있다. 이 과정을 통해 아비트럼이 어떻게
 이더리움의 확장성 문제를 해결하면서도 보안성을 유지하는지 알 수 있다.
 
-![alt text](<아비트럼 개발자 교육 모듈/Images/image.png>)
+![alt text](<아비트럼 개발자 교육 모듈/Images/image5.png>)
 
 트랜잭션은 시퀀서에서 시작된다. 시퀀서는 트랜잭션의 순서를 결정하는
 중요한 역할을 하며, 클라이언트가 트랜잭션을 보내면 시퀀서는 이를 두 가지
