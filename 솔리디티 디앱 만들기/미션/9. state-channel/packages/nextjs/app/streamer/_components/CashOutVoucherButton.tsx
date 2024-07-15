@@ -20,7 +20,7 @@ export const CashOutVoucherButton = ({ clientAddress, challenged, closed, vouche
     args: [clientAddress],
     watch: true,
   });
-
+  
   const isButtonDisabled =
     !voucher || closed.includes(clientAddress) || (challenged.includes(clientAddress) && !timeLeft);
 
