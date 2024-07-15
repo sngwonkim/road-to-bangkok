@@ -44,7 +44,7 @@ contract Streamer is Ownable {
   }
 
   // 서비스 제공자가 수익을 인출
-  function withdrawEarnings(Voucher calldata voucher) public {
+  function withdrawEarnings(Voucher calldata voucher) public onlyOwner() {
     // 오프체인 코드와 마찬가지로, 서명은 데이터 원본이 아닌 해시로 적용
     bytes32 hashed = keccak256(abi.encode(voucher.updatedBalance));
 
@@ -68,7 +68,7 @@ contract Streamer is Ownable {
   // 채널을 도전 상태로 변경
   function challengeChannel() public {
     require(balances[msg.sender] > 0, "No open channel");
-    canCloseAt[msg.sender] = block.timestamp + 30 seconds; // 현재 시간부터 1일동안
+    canCloseAt[msg.sender] = block.timestamp + 1 days; // 현재 시간부터 1일동안
     emit Challenged(msg.sender);
   }
 

@@ -25,12 +25,12 @@
 | Dynamic NFT | 미션 | 온체인 SVG 기반 다이나믹 NFT 디앱 만들기 | [Dynamic NFT](https://github.com/Ludium-Official/road-to-bangkok/tree/main/%EC%86%94%EB%A6%AC%EB%94%94%ED%8B%B0%20%EB%94%94%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/%EB%AF%B8%EC%85%98/6.%20dynamic-nft) |
 | Dice Game | 미션 | 온체인 RNG 기반 주사위 게임 만들기 | [Dice Game](https://github.com/Ludium-Official/road-to-bangkok/tree/main/%EC%86%94%EB%A6%AC%EB%94%94%ED%8B%B0%20%EB%94%94%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/%EB%AF%B8%EC%85%98/7.%20dice-game) |
 | Token Swap | 미션 | 토큰 교환이 가능한 탈중앙화 거래소 만들기 | [Token Swap](https://github.com/Ludium-Official/road-to-bangkok/tree/main/%EC%86%94%EB%A6%AC%EB%94%94%ED%8B%B0%20%EB%94%94%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/%EB%AF%B8%EC%85%98/8.%20token-swap) |
-| State Channel | 미션 | 스테이트 채널 기반 브릿지 디앱 만들기 | [State Channel (제작 중)](https://github.com/Ludium-Official/road-to-bangkok/tree/main/%EC%86%94%EB%A6%AC%EB%94%94%ED%8B%B0%20%EB%94%94%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/%EB%AF%B8%EC%85%98/9.%20state-channel) |
+| State Channel | 미션 | 스테이트 채널 기반 브릿지 디앱 만들기 | [State Channel](https://github.com/Ludium-Official/road-to-bangkok/tree/main/%EC%86%94%EB%A6%AC%EB%94%94%ED%8B%B0%20%EB%94%94%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/%EB%AF%B8%EC%85%98/9.%20state-channel) |
 | Multi Sig | 미션 | Storage, Memory, CallData 활용 실습 | 제작 중 |
 | Crowd Funding | 미션 | 크라우드 펀딩 디앱 만들기 | 제작 중 |
 | Lending | 미션 | 대출 디앱 만들기 | 제작 중 |
 | Yearn Challenge | 미션 | Yearn 기반 디파이 전략 설정 디앱 만들기 | 제작 중 |
-| Decentralized Social | 미션 | 탈중앙화 소설 어플리케이션 만들기 | 제작 중 |
+| Decentralized Social | 미션 | 탈중앙화 소설 어플리케이션 만들기 | [Decentralized Social](https://github.com/Ludium-Official/road-to-bangkok/tree/main/%EC%86%94%EB%A6%AC%EB%94%94%ED%8B%B0%20%EB%94%94%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/%EB%AF%B8%EC%85%98/14.%20decentralized-social) |
 
 # 제안 및 추가
 
