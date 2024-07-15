@@ -48,13 +48,11 @@ export const Guru: FC<GuruProps> = ({ challenged, closed, opened, writable }) =>
 
   const provideService = (client: AddressType, wisdom: string) => {
     setWisdoms({ ...wisdoms, [client]: wisdom });
-    console.log('wisdom 보내기', client, wisdom);
-
+    
     const channel = channels[client];
     if(channel instanceof BroadcastChannel) {
       try {
-        channels[client]?.postMessage(wisdom);
-        console.log('됨?')
+        channel?.postMessage(wisdom);
       } catch (error) {
         console.error(error)
       }
@@ -88,11 +86,14 @@ export const Guru: FC<GuruProps> = ({ challenged, closed, opened, writable }) =>
        *  `clientAddress`. (If it wasn't, log some error message and return).
        */
       const messageHash = keccak256(encodePacked(['uint256'], [updatedBalance]));
+      
       const verifyMessageParameters = {
         address: clientAddress,
-        message: messageHash,
+        message: {raw: toBytes(messageHash)},
         signature: data.signature,
       }
+
+      // voucher 확인
       const signer = await verifyMessage(verifyMessageParameters);
       if (!signer) {
         console.error('Voucher signature does not match the client address.');

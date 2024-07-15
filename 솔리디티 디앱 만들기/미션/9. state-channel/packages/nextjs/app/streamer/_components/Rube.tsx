@@ -5,6 +5,7 @@ import { Address as AddressType, createTestClient, encodePacked, http, keccak256
 import { hardhat } from "viem/chains";
 import { useAccount, useSignMessage } from "wagmi";
 import { useScaffoldReadContract, useScaffoldWriteContract } from "~~/hooks/scaffold-eth";
+import { connectorsForWallets } from "@rainbow-me/rainbowkit";
 
 const ETH_PER_CHARACTER = "0.01";
 
@@ -32,8 +33,6 @@ export const Rube: FC<RubeProps> = ({ challenged, closed, writable }) => {
 
   useEffect(() => {
     if (userAddress) {
-      console.log('userAddress', userAddress)
-      console.log('userChannel', userChannel)
       userChannel.current = new BroadcastChannel(userAddress);
     }
   }, [userAddress]);
@@ -99,13 +98,12 @@ export const Rube: FC<RubeProps> = ({ challenged, closed, writable }) => {
      * @param {MessageEvent<string>} e
      */
     userChannel.current.onmessage = (e: MessageEvent<string>) => {
-      console.log('받음?')
       if (typeof e.data != "string") {
         console.warn(`received unexpected channel data: ${JSON.stringify(e.data)}`);
         return;
       }
 
-      setReceivedWisdom(e.data);
+      setReceivedWisdom(JSON.stringify(e.data));
 
       if (autoPay) {
         reimburseService(e.data);
