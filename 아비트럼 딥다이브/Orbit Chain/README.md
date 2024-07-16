@@ -1,4 +1,4 @@
-# Orbit Chain 
+# Orbit Chain으로 L3 만들기
 
 참고 Docs: https://docs.arbitrum.io/launch-orbit-chain/orbit-quickstart
 
