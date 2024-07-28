@@ -16,7 +16,7 @@
 | 1    | 이더리움의 출현 배경 및 개요 | 아티클 | 이더리움의 출현 배경과 의의 이해하기                              | [이더리움의 출현 배경 및 개요](https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/01.이더리움의-출현-배경-및-개요.md) |
 | 2    | 이더리움 계정                | 아티클 | 이더리움 계정의 유형과 구조, 주요 개념에 대한 이해                | [이더리움 계정](https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/02.이더리움-계정.md)                               |
 | 3    | EOA 만들기                   | 미션   | ethers.js를 활용한 이더리움 어카운트 만들기 실습                  | [EOA 만들기](https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/03.EOA-만들기.md)                                     |
-| 4    | 트랜잭션 살펴보기            | 아티클 | 이더리움 트랜젝션의 구조의 이해와<br>이더 스캔을 통한 확인 방법   | [트랜잭션 살펴보기](https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/04.트랜잭션과-살펴보기.md)                     |
+| 4    | 트랜젝션 살펴보기            | 아티클 | 이더리움 트랜젝션의 구조의 이해와<br>이더 스캔을 통한 확인 방법   | [트랜젝션 살펴보기](https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/04.트랜젝션-살펴보기.md)                       |
 | 5    | 트랜젝션 만들기              | 미션   | 블록체인 트랜젝션의 실행 방식 실습                                | [트랜젝션 만들기](https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/05.트랜젝션-만들기.md)                           |
 | 6    | 이더리움 가상 머신<br>(EVM)  | 아티클 | 이더리움 가상 머신의 트랜젝션 처리와<br>어카운트 업데이트 방식    | [이더리움 가상 머신(EVM)](<https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/06.이더리움-가상머신(EVM).md>)          |
 | 7    | EVM 실행 실습                | 미션   | 솔리디티 컨트랙트를 통한 EVM 스택 실행 실습                       | [EVM 실행 실습](https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/07.EVM-실행-실습.md)                               |
