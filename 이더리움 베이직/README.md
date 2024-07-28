@@ -29,7 +29,7 @@
 | 14   | 지분 증명<br>합의 프로토콜   | 아티클 | 이더리움의 지분 증명 합의 프로토콜 구조 설명                      | [지분 증명 합의 프로토콜](https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/14.지분-증명-합의-프로토콜.md)           |
 | 15   | 잔고 관리와 채굴자 보상      | 미션   | 블록체인 어카운트 잔고와 채굴자 보상 구조 제작 실습               | [잔고 관리와 채굴자 보상](https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/15.잔고-관리와-채굴자-보상.md)           |
 | 16   | 온체인 데이터와 ABI          | 아티클 | JSON RPC를 활용한 온체인 ABI 데이터 조회,<br>온체인 데이터의 이해 | [온체인 데이터와 ABI](https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/16.온체인-데이터와-ABI.md)                   |
-| 17   | 블록 익스플로러 만들기       | 미션   | 온체인 데이터를 불러오는 익스플로러 제작 실습                     | [블록 익스플로러 만들기(제작 중)](https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/17.블록-익스플로러-만들기.md)    |
+| 17   | 블록 익스플로러 만들기       | 미션   | 온체인 데이터를 불러오는 익스플로러 제작 실습                     | [블록 익스플로러 만들기](https://github.com/Ludium-Official/road-to-bangkok/blob/main/이더리움%20베이직/17.블록-익스플로러-만들기.md)             |
 
 # 제안 및 추가
 
